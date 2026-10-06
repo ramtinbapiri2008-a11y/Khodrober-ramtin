@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>خودروبر رامتین | تهران</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #111;
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            padding: 40px 20px;
+            background: #1b1b1b;
+        }
+
+        h1 {
+            font-size: 38px;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #ccc;
+            font-size: 20px;
+        }
+
+        .box {
+            margin: 30px auto;
+            padding: 25px;
+            max-width: 500px;
+            background: #202020;
+            border-radius: 15px;
+        }
+
+        .info {
+            font-size: 20px;
+            margin: 15px 0;
+        }
+
+        .call {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 14px 30px;
+            background: #fff;
+            color: #111;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            color: #aaa;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>خودروبر رامتین</h1>
+        <div class="subtitle">حمل خودرو در تهران</div>
+    </header>
+
+    <div class="box">
+
+        <div class="info">🚛 حمل خودرو به صورت تکی و تعداد</div>
+
+        <div class="info">📍 تهران</div>
+
+        <div class="info">📞 09122701480</div>
+
+        <a class="call" href="tel:09122701480">
+            تماس با خودروبر رامتین
+        </a>
+
+    </div>
+
+    <footer>
+        خودروبر رامتین © 2026
+    </footer>
+
+</body>
+</html>
