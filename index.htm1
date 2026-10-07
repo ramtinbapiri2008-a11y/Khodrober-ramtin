@@ -1,90 +1,149 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>خودروبر رامتین | تهران</title>
-
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #111;
-            color: white;
-            text-align: center;
-        }
-
-        header {
-            padding: 40px 20px;
-            background: #1b1b1b;
-        }
-
-        h1 {
-            font-size: 38px;
-            margin-bottom: 10px;
-        }
-
-        .subtitle {
-            color: #ccc;
-            font-size: 20px;
-        }
-
-        .box {
-            margin: 30px auto;
-            padding: 25px;
-            max-width: 500px;
-            background: #202020;
-            border-radius: 15px;
-        }
-
-        .info {
-            font-size: 20px;
-            margin: 15px 0;
-        }
-
-        .call {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 14px 30px;
-            background: #fff;
-            color: #111;
-            text-decoration: none;
-            border-radius: 10px;
-            font-weight: bold;
-        }
-
-        footer {
-            margin-top: 50px;
-            padding: 20px;
-            color: #aaa;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>خودروبر رامتین | حمل خودرو</title>
+  <meta name="description" content="خودروبر رامتین - حمل خودرو با بیمه به تمام نقاط ایران، حمل خودرو به صورت تکی و تعداد.">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: Tahoma, Arial, sans-serif;
+      background: #111;
+      color: #fff;
+      line-height: 1.8;
+    }
+    .hero {
+      padding: 45px 20px 30px;
+      text-align: center;
+      background: linear-gradient(180deg, #1c1c1c, #111);
+    }
+    .hero h1 {
+      font-size: 34px;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      color: #ccc;
+      font-size: 17px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+      max-width: 900px;
+      margin: 25px auto;
+      padding: 0 15px;
+    }
+    .gallery img {
+      width: 100%;
+      height: 260px;
+      object-fit: cover;
+      border-radius: 16px;
+      display: block;
+    }
+    .section {
+      max-width: 900px;
+      margin: 35px auto;
+      padding: 0 20px;
+    }
+    .section h2 {
+      text-align: center;
+      font-size: 26px;
+      margin-bottom: 20px;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+    }
+    .service {
+      background: #1d1d1d;
+      border: 1px solid #333;
+      border-radius: 16px;
+      padding: 20px;
+      text-align: center;
+      font-size: 17px;
+    }
+    .about {
+      background: #1d1d1d;
+      border-radius: 18px;
+      padding: 25px;
+      text-align: center;
+    }
+    .contact {
+      text-align: center;
+      padding: 35px 20px 50px;
+    }
+    .contact a {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 25px;
+      border-radius: 12px;
+      background: #fff;
+      color: #111;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #0a0a0a;
+      color: #888;
+      font-size: 14px;
+    }
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 28px;
+      }
+      .gallery,
+      .services {
+        grid-template-columns: 1fr;
+      }
+      .gallery img {
+        height: 240px;
+      }
+    }
+  </style>
 </head>
-
 <body>
-
-    <header>
-        <h1>خودروبر رامتین</h1>
-        <div class="subtitle">حمل خودرو در تهران</div>
-    </header>
-
-    <div class="box">
-
-        <div class="info">🚛 حمل خودرو به صورت تکی و تعداد</div>
-
-        <div class="info">📍 تهران</div>
-
-        <div class="info">📞 09122701480</div>
-
-        <a class="call" href="tel:09122701480">
-            تماس با خودروبر رامتین
-        </a>
-
+  <header class="hero">
+    <h1>🚛 خودروبر رامتین</h1>
+    <p>حمل خودرو با امنیت و اطمینان به سراسر ایران</p>
+  </header>
+  <section class="gallery">
+    <img src="IMG_7174.jpeg" alt="خودروبر رامتین">
+    <img src="IMG_7175.jpeg" alt="خودروبر رامتین">
+  </section>
+  <section class="section">
+    <h2>خدمات ما</h2>
+    <div class="services">
+      <div class="service">🛡️ حمل خودرو با بیمه</div>
+      <div class="service">🇮🇷 حمل به تمام نقاط ایران</div>
+      <div class="service">🚗 حمل خودرو به صورت تکی</div>
+      <div class="service">🚛 حمل خودرو به صورت تعداد</div>
     </div>
-
-    <footer>
-        خودروبر رامتین © 2026
-    </footer>
-
+  </section>
+  <section class="section">
+    <div class="about">
+      <h2>خودروبر رامتین</h2>
+      <p>
+        حمل خودرو با خودروبر، با رعایت نکات ایمنی و امکان حمل خودرو
+        به صورت تکی و تعداد در تمام نقاط ایران.
+      </p>
+    </div>
+  </section>
+  <section class="contact">
+    <h2>تماس با خودروبر رامتین</h2>
+    <p>برای هماهنگی و دریافت اطلاعات بیشتر با ما تماس بگیرید.</p>
+    <!-- شماره تلفن را اینجا وارد کن -->
+    <a href="tel:شماره-تلفن">📞 تماس با ما</a>
+  </section>
+  <footer>
+    © خودروبر رامتین | حمل خودرو در سراسر ایران
+  </footer>
 </body>
 </html>
